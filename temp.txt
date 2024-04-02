@@ -1,4 +1,2 @@
- M package-lock.json
- M package.json
-?? auto_commit.bat
-?? temp.txt
+ M .gitignore
+ M temp.txt
