@@ -17,9 +17,6 @@ interface modalContent {
 }
 
 
-// const connectionString = process.env.DATABASE_URL || "postgres://postgres.zfagztrxjbzgnstfmmyl:-H?usUx$*6!nZ6e@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres"
-// const sql = postgres(connectionString)
-
 export default component$(() => {
 
     const formState = useStore({
