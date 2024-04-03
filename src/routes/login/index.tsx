@@ -51,22 +51,21 @@ export default component$(() => {
 
     return (
         <>
-            <div class="d-flex align-items-center justify-content-center p-5">
-                <form onSubmit$={handleSubmit} preventdefault:submit class="p-4 col-10 col-lg-6 border rounded shadow-sm bg-white">
+            <div class="">
+                <form onSubmit$={handleSubmit} preventdefault:submit class="">
                     <h4>Login</h4>
-                    <div class="form-group mt-2">
-                        <label for="username" class="form-label m-0">Username</label>
-                        <input onInput$={(e) => formState.username = (e.target as HTMLInputElement).value} value={formState.username} type="text" name="username" id="username" class="form-control form-control-md" />
+                    <div class="">
+                        <label for="username" class="">Username</label>
+                        <input onInput$={(e) => formState.username = (e.target as HTMLInputElement).value} value={formState.username} type="text" name="username" id="username" class="" />
                     </div>
-                    <div class="form-group mt-2">
-                        <label for="password" class="form-label m-0">Password</label>
-                        <input onInput$={(e) => formState.password = (e.target as HTMLInputElement).value} value={formState.password} type="password" name="password" id="password" class="form-control form-control-md" />
+                    <div class="">
+                        <label for="password" class="">Password</label>
+                        <input onInput$={(e) => formState.password = (e.target as HTMLInputElement).value} value={formState.password} type="password" name="password" id="password" class="" />
                     </div>
-                    <div class="form-group mt-2 d-grid">
+                    <div class="">
                         {
                             formSubmit.value && (
-                                <button class="btn-block btn btn-dark" type="button" disabled>
-                                    <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>&nbsp;
+                                <button class="" type="button" disabled>
                                     <span role="status">Loading...</span>
                                 </button>
                             )
