@@ -1,5 +1,1 @@
- M src/components/footer/index.tsx
- M src/components/header/index.tsx
- M src/routes/login/index.tsx
- M src/routes/signup/index.tsx
  M temp.txt
