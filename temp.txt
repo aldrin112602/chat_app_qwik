@@ -1,4 +1,6 @@
  M package-lock.json
  M package.json
+ D prisma/migrations/20240402224710_init/migration.sql
+ D prisma/migrations/migration_lock.toml
+ D prisma/schema.prisma
  M temp.txt
-?? prisma/
