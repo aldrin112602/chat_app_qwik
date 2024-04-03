@@ -1,6 +1,7 @@
  M package-lock.json
  M package.json
+ M src/global.css
  M temp.txt
-?? prisma/
-?? src/routes/create/
-?? src/routes/users/
+?? .prettierrc.js
+?? postcss.config.cjs
+?? tailwind.config.js
