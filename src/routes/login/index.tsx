@@ -1,4 +1,4 @@
-import 'dotenv/config'
+
 import { $, component$, useSignal, useStore } from "@builder.io/qwik";
 import Modal from '../../components/custom_modal/modal';
 // import postgres from 'postgres'
